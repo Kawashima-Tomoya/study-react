@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Links from '../components/Links'
 import Icons from '../components/Icons'
-import Headline from '../components/headline'
+import Headline from '../components/Headline'
 
 export default function Home() {
   return (

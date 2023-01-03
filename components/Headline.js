@@ -2,8 +2,6 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Headline(props) {
-  console.log(props);
-
   return (
     <div className={styles.description}>
       <p>
