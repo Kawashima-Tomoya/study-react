@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from './Icons.module.css'
+import styles from 'src/components/Icons/Icons.module.css'
 
 export function Icons() {
   return (

@@ -1,7 +1,8 @@
-import styles from './Main.module.css'
-import { Links } from '../components/Links'
-import { Icons } from '../components/Icons'
-import { Headline } from '../components/Headline'
+import styles from 'src/components/Main/Main.module.css'
+import { Links } from 'src/components/Links'
+import { Icons } from 'src/components/Icons'
+import { Headline } from 'src/components/Headline'
+
 
 export function Main(props) {
   return (
