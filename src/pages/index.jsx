@@ -10,7 +10,7 @@ export default function Home({count, isShow, handleClick, handleDisplay, text, a
         <title>Index Page</title>
       </Head>
       <Header />
-      {isShow ? <h1> {count} </h1> : null}
+      {isShow ? <h2> {count} </h2> : null}
       <button onClick= {handleClick} >ボタン</button>
       <button onClick= {handleDisplay} > {isShow ? "非表示" : '表示'} </button>
 

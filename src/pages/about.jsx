@@ -3,7 +3,7 @@ import { Header } from 'src/components/Header'
 import { Main } from 'src/components/Main'
 
 export default function About(props) {
-  const {count, isShow, handleClick, handleDisplay, text, array, handleChange, handleAdd} = props;
+  const {doubleCount ,isShow, handleClick, handleDisplay, text, array, handleChange, handleAdd} = props;
 
   return (
     <>
@@ -11,7 +11,7 @@ export default function About(props) {
         <title>Index Page</title>
       </Head>
       <Header />
-      {isShow ? <h1> {count} </h1> : null}
+      {isShow ? <h2> {doubleCount} </h2> : null}
       <button onClick= {handleClick} >ボタン</button>
       
       <button onClick= {handleDisplay} > {isShow ? "非表示" : '表示'} </button>
